@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="RankuNime - Streaming Anime Subtitle Indonesia">
+    <meta name="keywords" content="Nonton anime sub indo, Demon Slayer season 3, Anime HD">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RankuNime | Nonton Anime</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/elegant-icons.css">
+    <link rel="stylesheet" href="css/plyr.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Loading -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Logo RankuNime">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="index.html">Beranda</a></li>
+                            <li><a href="categories.html">Kategori <span class="arrow_carrot-down"></span></a>
+                                <ul class="dropdown">
+                                    <li><a href="anime-details.html">Detail Anime</a></li>
+                                    <li><a href="anime-watching.html">Tonton Anime</a></li>
+                                    <li><a href="blog-details.html">Detail Blog</a></li>
+                                    <li><a href="signup.html">Daftar</a></li>
+                                    <li><a href="login.html">Masuk</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="index.html"><i class="fa fa-home"></i> Beranda</a>
+                        <a href="categories.html">Kategori</a>
+                        <a href="#">Action</a>
+                        <span>Fate Stay Night: Unlimited Blade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Konten Anime -->
+    <section class="anime-details spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="anime__video__player">
+                        <video id="player" playsinline controls data-poster="./videos/anime-watch.jpg">
+                            <source src="videos/Demon-Slayer Season-3/1.mp4" type="video/mp4" id="video-source" />
+                            <track kind="captions" label="Subtitel Indonesia" src="#" srclang="id" default />
+                        </video>
+                    </div>
+                    <div class="anime__details__episodes">
+                        <div class="section-title">
+                            <h5>Daftar Episode</h5>
+                        </div>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="1.mp4">Episode 01</a>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="2.mp4">Episode 02</a>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="3.mp4">Episode 03</a>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="4.mp4">Episode 04</a>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="5.mp4">Episode 05</a>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="6.mp4">Episode 06</a>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="7.mp4">Episode 07</a>
+                        <a href="videos/Demon-Slayer Season-3" data-episode="8.mp4">Episode 08 (Tamat)</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="anime__details__review">
+                        <div class="section-title">
+                            <h5>Ulasan</h5>
+                        </div>
+                        <form action="#">
+                            <textarea placeholder="Tulis komentar Anda di sini..."></textarea>
+                            <button type="submit"><i class="fa fa-location-arrow"></i> Kirim Ulasan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="page-up">
+            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                        <a href="index.html"><img src="img/logo.png" alt="Logo RankuNime"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="footer__nav">
+                        <ul>
+                            <li class="active"><a href="index.html">Beranda</a></li>
+                            <li><a href="categories.html">Kategori</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        &copy; <script>document.write(new Date().getFullYear());</script> RankuNime. Template oleh <a href="https://colorlib.com" target="_blank">Colorlib</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Model Pencarian -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Cari anime di sini...">
+            </form>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Script Pemilih Episode -->
+    <script>
+        document.querySelectorAll('[data-episode]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const episode = this.getAttribute('data-episode');
+                const player = document.getElementById('player');
+                const source = document.getElementById('video-source');
+
+                source.src = 'videos/' + episode;
+                player.load();
+                player.play();
+                player.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
